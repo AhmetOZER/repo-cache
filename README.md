@@ -31,7 +31,7 @@ Your IP is not used
 ### Start Container
 Set static IP address with --ip argumant and also for the automatically start Container requires custom --restart policy.
 ```bash
-docker run --ip 172.19.0.30 --restart always ahmetozer/repo-cache
+docker run --ip 172.19.0.30 --restart always --network mynewnet ahmetozer/repo-cache
 ```
 
 ### Forwarding hostnames to Container
